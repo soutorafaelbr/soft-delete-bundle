@@ -1,0 +1,28 @@
+{
+    "name": "souto/soft-delete-bundle",
+    "description": "add to symfony the soft delete feature",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rafael Souto",
+            "email": "souto.rafaelb@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.2.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Souto\\SoftDeleteBundle\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Souto\\SoftDeleteBundle\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "symfony/phpunit-bridge": "^5.0"
+    }
+}
